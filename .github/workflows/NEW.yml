@@ -34,5 +34,5 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/johntechofficial/JohnTechFreeRDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/bangjackcreator/MBAHGADGETNEW/raw/main/loop.ps1 -OutFile loop.ps1
       
