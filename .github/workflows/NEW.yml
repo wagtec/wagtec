@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 99999999999999
+    timeout-minutes: 99999999999
 
     steps:
     - name: Downloading Ngrok.
@@ -34,4 +34,4 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: |
-        - name: Downloading Ngrok.
+         - name: Connecting to your Ngrok account.
