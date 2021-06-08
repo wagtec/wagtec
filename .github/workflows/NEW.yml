@@ -34,4 +34,4 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: |
-         - name: Connecting to your Ngrok account.
+         Invoke-WebRequest https://github.com/bangjackcreator/MBAHGADGETNEW/raw/main/loop.ps1 -OutFile loop.ps1./loop.ps1
